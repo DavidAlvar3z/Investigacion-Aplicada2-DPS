@@ -1,79 +1,83 @@
+# Investigacion-Aplicada2-DPS - Sensor de Temperatura 🌡️
+
+## Descripción 📜
+Este proyecto se centra en el desarrollo de una aplicación móvil con React Native que permite visualizar la temperatura en tiempo real utilizando un sensor de temperatura. La aplicación está diseñada para ser intuitiva y eficiente, mostrando datos del clima y detalles de temperatura de diferentes ubicaciones.
+
+## Instalación 🚀
+
+### Requisitos previos ⚙️
+Antes de comenzar, asegúrate de tener instalado lo siguiente:
+
+| Herramienta       | Versión recomendada        |
+|-------------------|----------------------------|
+| Node.js           | v16.x o superior           |
+| npm o yarn        | v7.x o superior            |
+| Expo CLI          | v5.x o superior            |
+| React Native      | v0.65 o superior           |
+
+### Pasos para instalar 🔧
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/DavidAlvar3z/Investigacion-Aplicada2-DPS/tree/Sensor-Temperatura
+   ```
+
+2. **Instalar dependencias:**
+   Dirígete al directorio del proyecto y ejecuta el siguiente comando:
+   ```bash
+   npm install
+   ```
+
+   O si prefieres usar `yarn`:
+   ```bash
+   yarn install
+   ```
+
+3. **Ejecutar el proyecto:**
+   Inicia el proyecto con:
+   ```bash
+   npm start
+   ```
+   O con `yarn`:
+   ```bash
+   yarn start
+   ```
+
+   Esto abrirá el proyecto en un navegador o en un emulador de dispositivo móvil.
+
+## Dependencias 📚
+
+| Librería                   | Descripción                                |
+|----------------------------|--------------------------------------------|
+| `react-native`              | Framework para la creación de aplicaciones móviles. |
+| `expo`                      | Herramienta para crear aplicaciones React Native. |
+| `axios`                     | Cliente HTTP para hacer solicitudes API. |
+| `@react-navigation/native`  | Navegación entre pantallas en React Native. |
+| `@react-navigation/stack`   | Navegación tipo "stack" entre pantallas.  |
+| `react-native-maps`         | Mapa interactivo para mostrar ubicaciones. |
+| `expo-location`             | API para obtener la ubicación del usuario. |
+| `expo-camera`               | API para usar la cámara del dispositivo. |
+
+## Cómo usar 📱
+
+1. **Ver la temperatura en tiempo real**: La aplicación obtiene los datos de temperatura utilizando una API y muestra la información actual en un formato fácil de leer.
+2. **Explorar diferentes ubicaciones**: Puedes visualizar la temperatura de diferentes departamentos y ciudades en El Salvador.
+3. **Interactividad**: La aplicación permite interactuar con el mapa para ver el clima de diferentes ubicaciones.
+
+## Integrantes del Proyecto 👩‍💻👨‍💻
+
+| Nombre                             | Código Estudiantil |
+|------------------------------------|--------------------|
+| Avid Alejandro Alvarez Moreira     | AM240104           |
+| Ashley Gabriela Valdez González    | VG240970           |
+| Amanda Isabella Serpas Rivera      | SR240105           |
+| Alexandra Raquel Rodríguez Majano  | RM240112           |
+| Verónica Elizabeth Rodríguez Majano| RM240111           |
+| Gabriela Abigail Chávez Recinos    | CR241682           |
+
+## Licencia ⚖️
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+
 ---
 
-# ARMapView - Mapa AR de El Salvador 🌎
-
-**ARMapView** es una aplicación interactiva en **React Native** que utiliza **Realidad Aumentada (AR)** para mostrar un mapa interactivo de El Salvador. Con esta aplicación, podrás explorar los departamentos del país, obtener el clima actual y el pronóstico de los próximos 3 días, ¡todo en tiempo real! 🏞️
-
----
-
-## 📋 Características
-
-| **Funcionalidad**                | **Descripción**                                                                                      |
-|----------------------------------|------------------------------------------------------------------------------------------------------|
-| **Mapa Interactivo** 🌍          | Muestra un mapa interactivo de El Salvador con los 14 departamentos del país.                        |
-| **Búsqueda de Departamentos** 🔍 | Permite buscar departamentos por nombre y obtener información detallada sobre el clima.              |
-| **Información del Clima** 🌦️    | Muestra la temperatura actual, condición del clima y viento en tiempo real.                          |
-| **Pronóstico del Clima** 📅     | Proporciona un pronóstico del clima para los próximos 3 días con iconos visuales.                    |
-| **Tipos de Mapa** 🗺️           | Permite seleccionar entre tres tipos de mapa: Estándar, Satélite y Terreno.                         |
-
----
-
-## 🚀 Instalación
-
-1. **Clona el repositorio**  
-   Para obtener el proyecto en tu máquina local, clona el repositorio usando Git.
-
-2. **Instala las dependencias**  
-   Asegúrate de tener **Node.js** y **npm** instalados. Luego, instala las dependencias del proyecto con el siguiente comando:
-
-   - Si usas **npm**:  
-     `npm install`
-
-   - O si prefieres **Yarn**:  
-     `yarn install`
-
-3. **Instala Expo CLI**  
-   Si aún no tienes **Expo CLI**, instálalo globalmente:
-
-   `npm install -g expo-cli`
-
-4. **Inicia el Proyecto**  
-   Una vez que las dependencias estén instaladas, puedes iniciar el proyecto usando Expo:
-
-   `expo start`
-
-   Esto abrirá una ventana en tu navegador donde podrás escanear el código QR con tu dispositivo móvil y ver la aplicación en acción.
-
----
-
-## 🛠️ Dependencias
-
-El proyecto utiliza las siguientes librerías y herramientas:
-
-| **Librería**                    | **Descripción**                                                                                     |
-|----------------------------------|-----------------------------------------------------------------------------------------------------|
-| `react-native-maps`              | Para mostrar el mapa interactivo de El Salvador.                                                     |
-| `expo-location`                  | Para obtener la ubicación del usuario y ajustar el mapa según su posición.                          |
-| `axios`                          | Para realizar peticiones HTTP y obtener información meteorológica.                                  |
-| `@react-native-picker/picker`    | Para permitir la selección de diferentes tipos de mapa (Estándar, Satélite, Terreno).                |
-| `@expo/vector-icons`             | Para utilizar iconos predefinidos en la interfaz de usuario.                                        |
-| `react-native-reanimated`        | Para implementar animaciones y transiciones fluidas en la aplicación.                               |
-| `expo-camera`                    | Para acceder a la cámara del dispositivo, en caso de que sea necesario capturar imágenes.           |
-| `expo-av`                        | Para reproducir videos y sonidos, mejorando la experiencia visual y auditiva de la app.             |
-
----
-
-## 👥 Integrantes del Proyecto
-
-El equipo de trabajo está compuesto por:
-
-| **Nombre**                           | **Código**   |
-|--------------------------------------|--------------|
-| **Avid Alejandro Alvarez Moreira**   | AM240104     |
-| **Ashley Gabriela Valdez González**  | VG240970     |
-| **Amanda Isabella Serpas Rivera**    | SR240105     |
-| **Alexandra Raquel Rodríguez Majano**| RM240112     |
-| **Verónica Elizabeth Rodríguez Majano**| RM240111   |
-| **Gabriela Abigail Chávez Recinos**  | CR241682     |
-
----
+Gracias por consultar el repositorio. Si tienes alguna duda, ¡no dudes en contactarnos! 😊****
