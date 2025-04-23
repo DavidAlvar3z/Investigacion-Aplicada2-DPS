@@ -76,7 +76,8 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 | Gabriela Abigail Chávez Recinos    | CR241682           |
 
 ## Licencia ⚖️
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+Este proyecto está bajo la Licencia MIT.
+```
 
 ---
 
